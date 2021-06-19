@@ -1,0 +1,625 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"Alegreya", serif;
+}
+
+.contain-main{
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+}
+
+    .header{
+        padding-left: 5%;
+        margin-top: 2%;
+        width: 100%;
+        height: auto;
+    }
+
+    nav ul li, a{
+        color: rgb(0, 0, 0);
+        list-style: none;
+        text-decoration: none;
+        display: inline-block;
+        margin: 10px 10px 10px 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        font-size: 2rem;
+        margin-bottom: 20px;
+        }
+
+        nav, li a:hover{
+            color: rgb(189, 55, 0);
+        }
+
+        a:hover{
+            color: rgb(189, 55, 0);
+        }
+        .active{
+            text-decoration: underline;
+            line-height: 2rem;
+        }
+
+        ul li, a{
+            color: rgb(0, 0, 0);
+            list-style: none;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px 10px 10px 0px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 800;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            }
+
+.hero{
+        background-color: black;
+        display: grid; 
+        grid-template-columns: 1.4fr 0.6fr; 
+        grid-template-rows: 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "area-1 area-2"; 
+        padding: 3%;
+      }
+
+      .area-1 { 
+        background-color: black;
+      }
+
+      .area-2 { 
+        width: 100%;
+        height: auto;
+        background-color: black;
+        ;}
+
+        h1{
+            color:white;
+            font-size: 10rem;
+            margin-top: 5%;
+        }
+        
+        h2{
+            color: white;
+            font-size: 4rem;
+            font-style: italic;
+            font-weight: 400;
+            margin-left: 5%;
+        }
+
+        .cards-container .csi{
+            padding-left: 0%;
+        }
+
+.cards-container{
+    margin: 0% 15% 5%;
+}
+    h3{
+        font-size: 4rem;
+        font-weight: 700;
+        font-family: "Alegreya", serif;
+        margin-top: 8%;
+
+    }
+
+    h4{
+        font-size: 3rem;
+        font-family: "Alegreya", serif;
+        font-weight: 400;
+        padding: 0% 5% 5% 0%;
+    }
+       .cards{
+        display: grid; 
+        grid-template-columns: repeat(3, 1fr); 
+        grid-auto-rows: minmax(1000px, auto);
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "card1 card2 card3"
+          "card4 card5 card6"
+          "card7 card8 card9"; 
+        }
+
+        .card1 { background-color: rgba(0,0,0,0.1);}
+        .card3 { background-color: rgba(0,0,0,0.1);}
+        .card5 { background-color: rgba(0,0,0,0.1);}
+        .card7 { background-color: rgba(0,0,0,0.1);}
+        .card9 { background-color: rgba(0,0,0,0.1);}
+
+        .content{
+            padding: 10% 10% 15% 10%;
+            font-size: 2em;
+        }
+
+        .title-card{
+            color: rgb(189, 55, 0);
+            font-weight: 700;
+            font-size: 1.5em;
+            font-family: "Alegreya", serif;
+            line-height: 1em;
+            padding-bottom: 5%;
+        }
+
+        .title-card:hover{
+            color: rgb(0, 0, 0);
+        }
+
+.footer{
+    padding: 5%;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0,0,0);
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+}
+
+    .mail-footer{
+        color: rgb(255, 255, 255);
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+    }
+
+    .news-input{
+        background-color: black;
+        outline: none;
+        border-radius: 1px;
+        border: 0;
+        border-bottom: 1px solid white;
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1%;
+        color: white;
+    }
+
+    .texto-footer{
+        font-size: 3rem;
+    }
+
+    .nav-footer{
+        color: white ;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+    }
+
+    .nav-container ul li{
+        display: inline-block;
+    }
+
+    .terms{
+        display: inline-block;
+        color: white;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .button{
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 1.5rem;      
+    }
+
+    .button:hover{
+       color: rgb(255, 255, 255);
+       background-color: rgb(189, 55, 0);
+    }
+
+    .text-footer2{
+        padding: 0.5%;
+    }
+
+    .italic{
+        font-style: italic;
+    }
+
+/*Mars-2020*/
+    .article-container {
+        display: grid; 
+        grid-template-columns: 0.4fr 1.6fr;
+        gap: 0px 5%; 
+        grid-template-areas: 
+          "side content-article"; 
+        margin: 0% 5% 5%;
+      }
+
+      .sidebar{
+          font-size: 1rem;
+          font-weight: 400;
+          color:rgb(189, 55, 0);
+          text-decoration: none;
+          list-style: none;
+          margin: 0%;
+          display: block;
+      }
+
+      .sidebar:hover{
+          color: rgb(0, 0, 0);
+      }
+
+      .sidebar-title{
+        font-size: 1rem;
+        font-weight: 400;
+        color:rgb(0, 0, 0);
+        text-decoration: none;
+        list-style: none;
+        margin: 0%;
+        text-transform: uppercase;
+        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        margin-bottom: 5%;
+      }
+
+      .sidebar-dif{
+        font-size: 1rem;
+        font-weight: 700;
+        color:rgb(0, 0, 0);
+        text-decoration: none;
+        list-style: none;
+        margin: 0%;
+        font-style: normal;
+        font-family: "Open Sans", sans-serif;
+        margin-bottom: 5%;
+      }
+
+      .title-mars{
+        margin: 0%;
+      }
+
+      .justify{
+          text-align: justify;
+          line-height: 1.6;
+          padding-bottom: 2%;
+          font-size: 1.5rem;
+          font-family: "Alegreya", serif;
+      }
+
+      .justify-margin{
+        text-align: justify;
+        line-height: 1.6;
+        padding-bottom: 2%;
+        font-size: 1.5rem;
+        margin-left: 2%;
+        font-family: "Alegreya", serif;
+    }
+
+    iframe{
+        border: none;
+    }
+
+    .justify-margin li{
+        font-size: 1.5rem;
+        list-style: square;
+        font-weight: 400;
+        font-family: "Alegreya", sans-serif;
+        text-decoration: initial;
+        display: list-item;
+    }
+
+    .iframe-container{
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%; 
+        height: 0;
+      }
+      .iframe-container iframe{
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    
+    figcaption{
+        text-align: center;
+        font-family: "Alegreya", serif;
+        padding: 3%;
+    }
+
+/*Ciencia ficcion*/
+.ciencia-ficcion-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 15px 15px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "title-1 description-1 photo-1"
+      "title-2 description-2 photo-2"
+      "title-3 description-3 photo-3"
+      "title-4 description-4 photo-4"
+      "title-5 description-5 photo-5"
+      "title-6 description-6 photo-6";
+    }
+  
+    .ciencia-ficcion-container div{
+        background-color: rgb(0,0,0,0.1);
+    }
+
+    .ciencia-ficcion-container div[class^="title"]{
+        font-size: 5rem;
+        padding: 15%;
+        font-weight: 700;
+    }
+
+    .ciencia-ficcion-container div[class^="descrip"]{
+        font-size: 1.5rem;
+        font-style: italic;
+        padding: 15%;
+    }
+
+    .author{
+        font-weight: 700;
+        font-size: 2rem; 
+    }
+
+    .author::before{
+        text-align : center;
+        font-size : 2em;
+        color: rgb(189, 55, 0);
+        content: "_";
+    }
+
+    .cards-container h1{
+        color: black;
+        font-size: 5rem;
+        padding-bottom: 3%;
+        padding-left: 3%;
+    }
+
+/*Marte-en-el-cine*/
+.video-container {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(3, 1fr); 
+    gap: 40px 25px; 
+    grid-template-areas: 
+      "video-1 video-2"
+      "video-3 video-4"
+      "video-5 video-6"; 
+  }
+  
+    .video-container iframe{
+    width:100%;
+    height: 500px;
+    }
+
+    .video-container div[class^="video"]{
+    background-color: rgba(0,0,0,0.1);
+    }
+
+    .video-container p{
+        padding: 5%;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .title-video{
+        font-weight: 700;
+    }
+
+
+/*Responsive*/
+@media screen and (max-width: 950px) {
+        h1{
+            font-size: 4rem;
+        }
+        
+        h2{
+            font-size: 3rem;
+        } 
+
+        .cards-container{
+            margin: 8%;
+        }
+
+        .cards{
+            grid-template-columns: 1fr;
+            grid-auto-rows: minmax(400px, auto);
+            grid-template-areas: 
+            "card1"
+            "card2"
+            "card3"
+            "card4"
+            "card5" 
+            "card6"
+            "card7"
+            "card8"
+            "card9"; 
+          }
+
+          .card1 { background-color: white}
+          .card3 { background-color: white}
+          .card5 { background-color: white}
+          .card7 { background-color: white}
+          .card9 { background-color: white}
+
+        .nav-container ul li{
+            display: block;
+        }
+
+        /*Mars*/
+        .article-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(1, 1fr); 
+            gap: 0px 0%; 
+            grid-template-areas: 
+            "content-article"  
+            "side";              
+            margin: 0% 5% 5%;
+        }
+
+        .article-container div:nth-of-type(1){
+            order: 2;
+        }
+
+        .article-container div:nth-of-type(1){
+            order: 1;
+        }
+
+        .sidebar-dif, .sidebar{
+            text-align: left;
+        }
+
+        /*Ciencia-Ficcion*/
+        .ciencia-ficcion-container {
+            display: block;
+            grid-template-columns: 1fr;
+            grid-template-areas:
+                "title-1" 
+                "description-1"
+                "photo-1"
+                "title-2"
+                "description-2"
+                "photo-2"
+                "title-3"
+                "description-3"
+                "photo-3"
+                "title-4"
+                "description-4" 
+                "photo-4"
+                "title-5"
+                "description-5"
+                "photo-5"
+                "title-6"
+                "description-6" 
+                "photo-6";
+            margin: 0% 5% 5%;
+            }
+
+            .cards-container .csi{
+                padding-left: 3%;
+            }
+
+            .ciencia-ficcion-container div[class^='descrip']{
+            padding: 8%;
+            }
+
+            .video-container {
+                display: block; 
+                gap: 40px 25px; 
+                grid-template-areas: 
+                  "video-1" 
+                  "video-2"
+                  "video-3"
+                  "video-4"
+                  "video-5"
+                  "video-6"; 
+                }
+
+            .active{
+                margin: 0% 20% 0% 20%;
+            }
+    }
+
+
+@media screen and (max-width: 850px) {
+    h1{
+        font-size: 3rem;
+    }
+    
+    h2{
+        font-size: 2rem;
+    } 
+
+    h3{
+        text-align: left;
+        margin: 0%;
+    }
+
+    .cards-container h1{
+        font-size: 3rem;
+    }
+
+
+    nav ul li, a{
+        font-size: 1.1rem;
+        text-align: center;
+        margin: 1%;       
+        display: block;
+    }
+
+    .cards-container{
+        margin: 3%;
+    }
+    .cards{
+        grid-template-columns: minmax(20%, 80vmax);
+        grid-template-areas: 
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+        "card5" 
+        "card6"
+        "card7"
+        "card8"
+        "card9"; 
+      }
+
+      .content{
+        padding: 3%;
+        font-size: 1.5em;
+        margin-bottom: 10%;
+    }
+
+    .image-card{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .texto-footer{
+        font-size: 2rem;
+    }
+
+    .ciencia-ficcion-container div[class^='title']{
+        font-size: 3rem;
+        padding: 8%;
+    }
+
+}
+
+
+@media screen and (max-width: 450px) {
+    h1{
+        font-size: 2rem;
+    }
+    
+    h2{
+        font-size: 1.1rem;
+    } 
+
+    nav ul li, a{
+        font-size: 1.1rem;
+    }
+
+    h3{
+        font-size: 2rem;
+        padding: 5% 0% 5% 0%;
+    }
+
+    h4{
+        font-size: 1.4rem;
+    }
+
+    .menu{
+        margin: 10% 0% 10% 0%;
+    }
+
+    .title-card{
+        display: inline;
+        margin: 0% 0% 5% 0%;
+    }
+ }
+
+
